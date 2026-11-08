@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Track your order · Global-AccessChina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/app.css">
+<script src="/assets/app.js" defer></script>
+<script src="/assets/order.js" defer></script>
+</head>
+<body style="background:#F9FAFB">
+<div id="site-header"></div>
+<main class="wrap stack" style="padding-top:28px;padding-bottom:56px;gap:22px;max-width:820px">
+<h1 style="font-size:32px">Track your order</h1>
+<form id="lookup" class="panel optgrid" style="align-items:end">
+<div class="field"><label for="ref">Order reference</label><input class="f" id="ref" placeholder="GAC-XXXXXXX" required></div>
+<div class="field"><label for="em">Email used at checkout</label><input class="f" id="em" type="email" required></div>
+<button class="btn" type="submit">Show my order</button>
+</form>
+<div id="order" aria-live="polite"></div>
+</main>
+<div id="site-footer"></div>
+</body>
+</html>
