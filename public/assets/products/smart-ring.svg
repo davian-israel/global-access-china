@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Titanium smart ring with charging case">
+<defs>
+<radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#F7F5F0"/><stop offset="1" stop-color="#E6E1D7"/></radialGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4F4F2"/><stop offset=".35" stop-color="#A9ADB3"/><stop offset=".6" stop-color="#E9EAEC"/><stop offset="1" stop-color="#6F757C"/></linearGradient>
+<linearGradient id="inner" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2B2E33"/><stop offset="1" stop-color="#121417"/></linearGradient>
+<linearGradient id="case" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A3D42"/><stop offset="1" stop-color="#1D1F23"/></linearGradient>
+</defs>
+<rect width="800" height="800" fill="url(#bg)"/>
+<ellipse cx="400" cy="640" rx="270" ry="34" fill="#000" opacity=".10"/>
+<rect x="190" y="500" width="420" height="140" rx="60" fill="url(#case)"/>
+<rect x="190" y="500" width="420" height="40" rx="20" fill="#4A4E54"/>
+<circle cx="400" cy="575" r="6" fill="#3FD68C"/>
+<ellipse cx="400" cy="330" rx="200" ry="200" fill="url(#metal)"/>
+<ellipse cx="400" cy="330" rx="158" ry="158" fill="url(#inner)"/>
+<ellipse cx="400" cy="330" rx="150" ry="150" fill="url(#bg)"/>
+<path d="M210 260 A200 200 0 0 1 330 140" stroke="#fff" stroke-width="14" fill="none" opacity=".7" stroke-linecap="round"/>
+<g transform="translate(400 482)"><rect x="-28" y="-14" width="56" height="20" rx="8" fill="#1B1D20"/><circle cx="-12" cy="-4" r="4" fill="#4CC3FF"/><circle cx="2" cy="-4" r="4" fill="#3FD68C"/><circle cx="14" cy="-4" r="3" fill="#FF5B5B"/></g>
+</svg>

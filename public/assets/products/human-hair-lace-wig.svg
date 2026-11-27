@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Long body wave human hair lace front wig on a display head">
+<defs>
+<radialGradient id="bg" cx="50%" cy="35%" r="75%"><stop offset="0" stop-color="#FBF3EE"/><stop offset="1" stop-color="#EAD9CF"/></radialGradient>
+<linearGradient id="hair" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A1A14"/><stop offset=".6" stop-color="#1A0F0B"/><stop offset="1" stop-color="#0E0806"/></linearGradient>
+<linearGradient id="head" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9D6C8"/><stop offset="1" stop-color="#D3BBAA"/></linearGradient>
+</defs>
+<rect width="800" height="800" fill="url(#bg)"/>
+<ellipse cx="400" cy="745" rx="170" ry="22" fill="#000" opacity=".10"/>
+<rect x="355" y="560" width="90" height="190" rx="20" fill="#CDB4A2"/>
+<path d="M400 110 C250 110 195 220 200 330 C205 460 160 560 175 690 C230 720 290 700 310 660 C300 560 320 470 330 400 L470 400 C480 470 500 560 490 660 C510 700 570 720 625 690 C640 560 595 460 600 330 C605 220 550 110 400 110 Z" fill="url(#hair)"/>
+<ellipse cx="400" cy="380" rx="105" ry="140" fill="url(#head)"/>
+<path d="M290 330 C300 230 360 190 400 195 C440 190 500 230 510 330 C470 260 440 250 400 252 C360 250 330 260 290 330 Z" fill="#1E120D"/>
+<g stroke="#4A3026" stroke-width="5" fill="none" opacity=".75" stroke-linecap="round">
+<path d="M230 360 q-30 40 0 80 q30 40 0 80 q-30 40 0 80"/>
+<path d="M570 360 q30 40 0 80 q-30 40 0 80 q30 40 0 80"/>
+<path d="M265 420 q-25 35 0 70 q25 35 0 70 q-20 30 0 60"/>
+<path d="M535 420 q25 35 0 70 q-25 35 0 70 q20 30 0 60"/>
+</g>
+<path d="M300 300 C330 275 360 266 400 266 C440 266 470 275 500 300" stroke="#E7CFBF" stroke-width="6" fill="none" opacity=".55"/>
+</svg>

@@ -70,7 +70,7 @@ export class CatalogService {
   async featured() {
     if (this.isSample) {
       const res = await this.source.search('', 1);
-      return Promise.all(res.items.slice(0, 12).map((i) => this.getProduct(i.sourceId)));
+      return Promise.all(res.items.slice(0, 16).map((i) => this.getProduct(i.sourceId)));
     }
     // Live mode: show the most recently viewed real products.
     const rows = await this.db.query<{ id: string }>('select id from products order by fetched_at desc limit 12');

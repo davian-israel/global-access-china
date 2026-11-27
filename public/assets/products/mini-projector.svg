@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Compact white mini projector">
+<defs>
+<radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#EEF3F7"/><stop offset="1" stop-color="#D6DEE6"/></radialGradient>
+<linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D9DDE2"/></linearGradient>
+<radialGradient id="lens" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#6E8BB0"/><stop offset=".5" stop-color="#1D2A3C"/><stop offset="1" stop-color="#05080D"/></radialGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFF6D8" stop-opacity=".9"/><stop offset="1" stop-color="#FFF6D8" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="800" height="800" fill="url(#bg)"/>
+<polygon points="420,330 800,150 800,560 420,430" fill="url(#beam)"/>
+<ellipse cx="370" cy="610" rx="240" ry="30" fill="#000" opacity=".12"/>
+<rect x="160" y="250" width="380" height="350" rx="70" fill="url(#body)" stroke="#C5CBD2" stroke-width="3"/>
+<rect x="190" y="560" width="320" height="20" rx="10" fill="#C7CCD3"/>
+<circle cx="400" cy="380" r="92" fill="#E9ECEF" stroke="#C5CBD2" stroke-width="3"/>
+<circle cx="400" cy="380" r="72" fill="url(#lens)"/>
+<circle cx="378" cy="356" r="16" fill="#fff" opacity=".45"/>
+<g fill="#AEB5BE"><circle cx="230" cy="320" r="7"/><circle cx="230" cy="350" r="7"/><circle cx="230" cy="380" r="7"/><circle cx="230" cy="410" r="7"/><circle cx="260" cy="335" r="7"/><circle cx="260" cy="365" r="7"/><circle cx="260" cy="395" r="7"/></g>
+<rect x="250" y="500" width="70" height="14" rx="7" fill="#AEB5BE"/>
+<circle cx="480" cy="507" r="8" fill="#3FA9F5"/>
+</svg>
