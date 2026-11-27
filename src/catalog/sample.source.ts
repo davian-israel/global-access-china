@@ -16,6 +16,7 @@ const S = (
   priceCny: number,
   weightKg: number,
   skus: { id: string; zh: Record<string, string>; en: Record<string, string>; cny: number }[] = [],
+  images: string[] = [],
 ): Sample => ({
   sourceId: id,
   source: 'taobao',
@@ -23,7 +24,7 @@ const S = (
   titleZh,
   titleEn,
   priceCny: skus.length ? Math.min(...skus.map((s) => s.cny)) : priceCny,
-  images: [],
+  images,
   weightKg,
   sellerId: `sample-seller-${id.slice(-1)}`,
   sellerName: 'Sample seller',
@@ -32,7 +33,30 @@ const S = (
   optionsEn: Object.fromEntries(skus.map((s) => [s.id, s.en])),
 });
 
+const IMG = '/assets/products/';
+
 export const SAMPLES: Sample[] = [
+  S('sample-1013', 'Smart wearables', '智能戒指 心率 血氧 睡眠监测 无需订阅 带充电仓', 'Smart ring with charging case, heart rate, sleep and SpO2 tracking, no subscription', 120, 0.1, [
+    { id: 'r7', zh: { 尺码: '7号' }, en: { Size: '7' }, cny: 120 },
+    { id: 'r8', zh: { 尺码: '8号' }, en: { Size: '8' }, cny: 120 },
+    { id: 'r9', zh: { 尺码: '9号' }, en: { Size: '9' }, cny: 120 },
+    { id: 'r10', zh: { 尺码: '10号' }, en: { Size: '10' }, cny: 120 },
+    { id: 'r11', zh: { 尺码: '11号' }, en: { Size: '11' }, cny: 120 },
+    { id: 'r12', zh: { 尺码: '12号' }, en: { Size: '12' }, cny: 120 },
+  ], [IMG + 'smart-ring.svg']),
+  S('sample-1014', 'Electronics', '迷你投影仪 1080P 家用 便携 自动对焦', 'Mini projector, 1080p, portable, auto focus', 320, 1.2, [
+    { id: 'pw', zh: { 颜色分类: '白色' }, en: { Colour: 'White' }, cny: 320 },
+    { id: 'pg', zh: { 颜色分类: '灰色' }, en: { Colour: 'Grey' }, cny: 320 },
+  ], [IMG + 'mini-projector.svg']),
+  S('sample-1015', 'Hair & beauty', '真人发 13x4 蕾丝前额假发 体波纹 自然黑', 'Human hair lace front wig, 13x4, body wave, natural black', 420, 0.4, [
+    { id: 'w18', zh: { 长度: '18寸' }, en: { Length: '18 inch' }, cny: 420 },
+    { id: 'w22', zh: { 长度: '22寸' }, en: { Length: '22 inch' }, cny: 520 },
+    { id: 'w26', zh: { 长度: '26寸' }, en: { Length: '26 inch' }, cny: 640 },
+  ], [IMG + 'human-hair-lace-wig.svg']),
+  S('sample-1016', 'Hair & beauty', '化纤 蕾丝前额假发 短发波波头 耐高温丝', 'Synthetic lace front wig, short bob, heat resistant', 95, 0.35, [
+    { id: 'sb', zh: { 颜色分类: '自然黑' }, en: { Colour: 'Natural black' }, cny: 95 },
+    { id: 'sh', zh: { 颜色分类: '蜂蜜棕' }, en: { Colour: 'Honey brown' }, cny: 95 },
+  ], [IMG + 'synthetic-lace-wig.svg']),
   S('sample-1001', 'Phone & accessories', '无线蓝牙耳机 主动降噪 长续航', 'Wireless earbuds, noise cancelling, long battery', 60, 0.2, [
     { id: 'k1', zh: { 颜色分类: '黑色' }, en: { Colour: 'Black' }, cny: 60 },
     { id: 'k2', zh: { 颜色分类: '白色' }, en: { Colour: 'White' }, cny: 60 },
